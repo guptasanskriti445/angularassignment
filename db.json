@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "firstname": "roji",
+      "lastname": "gupta",
+      "address": "jjlkflsdj",
+      "dob": "10/05/1989",
+      "mobile": "5656895759",
+      "city": "kfs;ldkf"
+    },
+    {
+      "id": 4,
+      "firstname": "df;l",
+      "lastname": "lsdkf;l",
+      "address": "dflkds;lkf",
+      "dob": "10/05/1998",
+      "mobile": "98455",
+      "city": "df;lsdk"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
