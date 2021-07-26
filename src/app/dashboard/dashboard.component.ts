@@ -23,7 +23,7 @@ export class DashboardComponent implements OnInit {
     this.formValue = this.formBuilder.group({
       firstname : ['', Validators.required],
       lastname : ['', Validators.required],
-      address : ['', Validators.required],
+      address : ['', Validators.required], 
       dob : ['', Validators.required],
       mobile : ['',[Validators.required, Validators.minLength(10), Validators.maxLength(10),Validators.pattern("^((\\+91-?)|0)?[0-9]{10}$")]],
       city : ['', Validators.required],
