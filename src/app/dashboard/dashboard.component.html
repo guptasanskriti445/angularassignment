@@ -67,7 +67,7 @@
                       <div *ngIf="f.address.errors.required">Address is required</div>
                     </div>
                   </div>
-                  <div class="mb-3">
+                  <div class="mb-3"> 
                     <label for="dob" class="form-label">Birth date</label>
                     <input type="date" formControlName="dob"   class="form-control" id="dob" [ngClass]="{ 'is-invalid': submitted && f.dob.errors }">
                     <div *ngIf="submitted && f.dob.errors" class="invalid-feedback">
